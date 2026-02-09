@@ -2,7 +2,9 @@
 
 ### Install git if it is not already installed
 
-`sudo apt install git`
+```
+sudo apt install git
+```
 
 ### Clone the repsitory to get the .desktop and icon file.
 
