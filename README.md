@@ -23,9 +23,6 @@ mv hamrs.AppImage /usr/local/bin/hamrs.AppImage
 
 ```
 mv hamrs.desktop ~/.local/share/applications/
-```
-
-```
 chmod +x ~/.local/share/applications/hamrs.desktop
 ```
 
@@ -33,8 +30,5 @@ chmod +x ~/.local/share/applications/hamrs.desktop
 
 ```
 sudo cp hamrs.jpeg /usr/share/icons/
-```
-
-```
 gtk-update-icon-cache /usr/share/icons/
 ```
