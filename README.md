@@ -15,10 +15,7 @@ git clone https://github.com/mtibbett67/HAMRS-Launcher.git .
 #### Rename and move the AppImage file:
 
 ```
-cp hamrs*.AppImage hamrs.AppImage
-```
-
-```
+cp hamrs*.AppImage hamrs.AppImage 
 mv hamrs.AppImage /usr/local/bin/hamrs.AppImage
 ```
 
