@@ -1,30 +1,43 @@
 ## This is how to install the files to create an icon and run HAMRS
 
-### Install git if it is not already installed
+##### Install git if it is not already installed
 
-```
+`````````
 sudo apt install git
+`````````
+
+#### Clone the repsitory to get the .desktop and icon file.
+
+```
+git clone https://github.com/mtibbett67/HAMRS-Launcher.git .
 ```
 
-### Clone the repsitory to get the .desktop and icon file.
+#### Rename and move the AppImage file:
 
-`git clone https://github.com/mtibbett67/HAMRS-Launcher.git .`
+```
+cp hamrs*.AppImage hamrs.AppImage
+```
 
-### Rename and move the AppImage file:
+```
+mv hamrs.AppImage /usr/local/bin/hamrs.AppImage
+```
 
-`cp hamrs*.AppImage hamrs.AppImage`
+#### Copy .desktop file to create app launcher:
 
-`mv hamrs.AppImage /usr/local/bin/hamrs.AppImage`
+```
+mv hamrs.desktop ~/.local/share/applications/
+```
 
-### Copy .desktop file to create app launcher:
+```
+chmod +x ~/.local/share/applications/hamrs.desktop
+```
 
-`mv hamrs.desktop ~/.local/share/applications/`
+#### Copy Icon file to the proper place
 
-`chmod +x ~/.local/share/applications/hamrs.desktop`
+```
+sudo cp hamrs.jpeg /usr/share/icons/
+```
 
-### Copy Icon file to the proper place
-
-`sudo cp hamrs.jpeg /usr/share/icons/`
-
-`gtk-update-icon-cache /usr/share/icons/`
-
+```
+gtk-update-icon-cache /usr/share/icons/
+```
