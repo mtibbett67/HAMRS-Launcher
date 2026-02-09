@@ -1,6 +1,6 @@
 This is how to install the files to create an icon and run HAMRS
 
-Install git if it is not already instaled
+Install git if it is not already installed
 
 `sudo apt install git`
 
