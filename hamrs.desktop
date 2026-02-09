@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=HAMRS
+Comment=Simple Ham Radio Logging
+Exec=sh -c "/usr/local/bin/hamrs.AppImage --no-sandbox"
+Icon=/usr/share/icons/hamrs.jpeg
+Terminal=false
+Categories=Network;HamRadio;
+Keywords=Ham;Radio;Log;Logging;
